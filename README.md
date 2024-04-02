@@ -1,5 +1,5 @@
 ## Requerimientos
-Se debe tener instalado nodejs 19 o superior 
+Se debe tener instalado python 3.11
 
 ## Para iniciar aplicación
 1- Iniciar entorno virtual
