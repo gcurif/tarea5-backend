@@ -2,6 +2,16 @@
 Se debe tener instalado python 3.11
 
 ## Para iniciar aplicación
+
+0-Configurar la base de datos
+
+ir al archivo database_manager.py y modificar la linea 5 en la parte que dice "{aqui_tu_usuario}"
+con su usuario, esto es para que no se topen y usen bases de datos distintas
+
+los usuarios son:
+* pastita
+* saniel
+
 1- Iniciar entorno virtual
 Ejecutar en consola:
 ```
