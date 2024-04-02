@@ -1,10 +1,11 @@
 from pydantic import BaseModel
 
+class RespuestaDTO(BaseModel):
+    texto: str
+    archivo: str
+
 class PreguntaDTO(BaseModel):
     texto: str
     numero: int
-
-class RespuestaDTO(BaseModel):
-    texto: str
-    id_pregunta: str
-
+    respuesta : RespuestaDTO = None
+    pistaBack : str = ''
