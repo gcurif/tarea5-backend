@@ -25,6 +25,13 @@ def obtener_preguntas():
         preguntasDTOs[0].pistaBack = "Hola, yo vengo modificada desde el back :D"
         preguntasDTOs[0].respuesta.texto = preguntasDTOs[0].respuesta.texto  + " (ya wn aki viene una pista del back, esto esta re izi)"
 
+    if len(preguntasDTOs) > 0:
+        print('me quiiero suicidar', preguntasDTOs[1])
+        preguntasDTOs[1].pistaBack = "tal vez me suicide"
+        preguntasDTOs[1].respuesta.texto = preguntasDTOs[1].respuesta.texto  + " (me voi a suicidar)"
+
+
+
     return preguntasDTOs
 
 @app.get("/preguntas/{numero}", response_model=PreguntaDTO)
