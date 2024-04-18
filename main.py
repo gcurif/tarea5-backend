@@ -30,7 +30,20 @@ def obtener_preguntas():
         preguntasDTOs[1].pistaBack = "tal vez me suicide"
         preguntasDTOs[1].respuesta.texto = preguntasDTOs[1].respuesta.texto  + " (me voi a suicidar)"
 
+    if len(preguntasDTOs) > 0:
+        print('me quiiero pajiar', preguntasDTOs[2])
+        preguntasDTOs[2].pistaBack = "tal vez me pajee"
+        preguntasDTOs[2].respuesta.texto = preguntasDTOs[2].respuesta.texto  + " (me voi a pajiar)"
 
+    if len(preguntasDTOs) > 0:
+        print('me quiiero mear', preguntasDTOs[3])
+        preguntasDTOs[3].pistaBack = "tal vez me mee"
+        preguntasDTOs[3].respuesta.texto = preguntasDTOs[3].respuesta.texto  + " (me voi a mear)"
+
+    if len(preguntasDTOs) > 0:
+        print('me quiiero culear una watona', preguntasDTOs[4])}
+        preguntasDTOs[4].pistaBack = "tal vez me culee una watona"
+        preguntasDTOs[4].respuesta.texto = preguntasDTOs[4].respuesta.texto  + " (me voi a culear una watona)"
 
     return preguntasDTOs
 
