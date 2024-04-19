@@ -22,11 +22,12 @@ def obtener_preguntas():
     # hola, soy la pregunta 0, y me van a modificar :D
     print('hola, soy la pregunta 0, y me van a modificar desde el back :D', preguntasDTOs[0])
     preguntasDTOs[0].pistaBack = "Hola, yo vengo modificada desde el back :D"
-      preguntasDTOs[1].respuesta.texto = "holanda florida"
-      preguntasDTOs[2].respuesta.texto = "holanda mendoza"
-      preguntasDTOs[3].respuesta.texto = "holanda papaya"
-      preguntasDTOs[4].respuesta.texto = "holanda limon"
-      preguntasDTOs[5].respuesta.texto = "holanda avocado"
+    preguntasDTOs[1].respuesta.texto = "holanda florida"
+    preguntasDTOs[2].respuesta.texto = "holanda mendoza"
+    preguntasDTOs[3].respuesta.texto = "holanda papaya"
+    preguntasDTOs[4].respuesta.texto = "holanda limon"
+    preguntasDTOs[5].respuesta.texto = "holanda avocado"
+    
     return preguntasDTOs
 
 @app.get("/preguntas/{numero}", response_model=PreguntaDTO)
